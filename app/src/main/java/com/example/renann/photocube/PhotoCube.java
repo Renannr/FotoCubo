@@ -45,8 +45,8 @@ public class PhotoCube {
                     context.getResources().openRawResource(imageFileIDs[face]));
             int imgWidth = bitmap[face].getWidth();
             int imgHeight = bitmap[face].getHeight();
-            float faceWidth = 2.0f;
-            float faceHeight = 2.0f;
+            float faceWidth = 2.4f;
+            float faceHeight = 2.4f;
             // Adjust for aspect ratio
             if (imgWidth > imgHeight) {
                 faceHeight = faceHeight * imgHeight / imgWidth;
